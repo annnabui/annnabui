@@ -1,0 +1,13 @@
+.header {
+    @include font-md;
+    // @include flex(center);
+    color: blue;
+}
+
+.nav {
+    @include grid;
+}
+
+.nav__link {
+    @include columns(6);
+}
